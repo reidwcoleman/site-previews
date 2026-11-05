@@ -84,7 +84,7 @@ def sec_flavors(b,d,tel):
     tags=d["tags"]; cats=["All"]+sorted(set(tags))
     ch="".join(f'<button type="button" class="{"on" if c=="All" else ""}" data-f="{e(c)}">{e(c)}</button>' for c in cats)
     cards="".join(f'<li data-t="{e(t)}"><h3>{e(n)}</h3><p>{e(x)}</p></li>' for (n,x),t in zip(b["flavors"],tags))
-    return f'<section class="flav wrap" id="flavors"><h2 class="rv">The flavors people drive for</h2><p class="rv lead">A different selection every day. Here are some favorites.</p><div class="fil rv" role="group" aria-label="Filter flavors">{ch}</div><ul class="rv" data-flav>{cards}<li class="today"><h3>What's in the case today?</h3><p>Flavors change daily. Call the shop to find out.</p><a class="dl" href="{tel}"><i class="ph-light ph-phone"></i>{e(b["phone"])}</a></li></ul></section>'
+    return f'<section class="flav wrap" id="flavors"><h2 class="rv">The flavors people drive for</h2><p class="rv lead">A different selection every day. Here are some favorites.</p><div class="fil rv" role="group" aria-label="Filter flavors">{ch}</div><ul class="rv" data-flav>{cards}<li class="today"><h3>What&#39;s in the case today?</h3><p>Flavors change daily. Call the shop to find out.</p><a class="dl" href="{tel}"><i class="ph-light ph-phone"></i>{e(b["phone"])}</a></li></ul></section>'
 def sec_req(b,d,tel):
     t,opts=b["form"]; o="".join(f'<label class="chip"><input type="radio" name="kind" value="{e(x)}"{" checked" if i==0 else ""}><span>{e(x)}</span></label>' for i,x in enumerate(opts))
     direct=f'<a class="dl" href="{tel}"><i class="ph-light ph-phone"></i>{e(b["phone"])}</a>' if b["phone"] else ""
