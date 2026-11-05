@@ -13,7 +13,7 @@ M = {
  "paw": '<ellipse cx="100" cy="160" rx="52" ry="44"/><ellipse cx="46" cy="104" rx="20" ry="28"/><ellipse cx="82" cy="66" rx="20" ry="30"/><ellipse cx="124" cy="66" rx="20" ry="30"/><ellipse cx="158" cy="104" rx="20" ry="28"/>',
  "pipe": '<path d="M20 60h96a44 44 0 0 1 44 44v110h-44V112a8 8 0 0 0-8-8H20z"/><rect x="104" y="202" width="68" height="20" rx="4"/><rect x="12" y="48" width="20" height="68" rx="4"/>',
  "roller": '<rect x="24" y="36" width="140" height="56" rx="10"/><path d="M164 58h20v58h-78v34h-12v-46h78V70h-8z"/><rect x="90" y="150" width="20" height="84" rx="6"/>',
- "razor": '<path d="M24 62h120l32 30-32 22H24z"/><path d="M60 114h30l-34 118H26z"/>',
+ "razor": '<rect x="70" y="16" width="60" height="16" rx="8"/><rect x="70" y="208" width="60" height="16" rx="8"/><rect x="78" y="32" width="44" height="176"/><path d="M78 62l44-26v24L78 86zM78 112l44-26v24l-44 26zM78 162l44-26v24l-44 26z" fill="var(--bg)"/>',
  "cake": '<path d="M46 110h108l-14 112H60z"/><path d="M36 110c0-44 30-52 44-52 6-26 34-34 52-14 26 0 42 30 32 66z"/><circle cx="104" cy="28" r="14"/>',
  "wrench": '<path d="M150 22a50 50 0 0 0-58 66L24 156a24 24 0 0 0 34 34l68-68a50 50 0 0 0 66-58l-32 32-30-8-8-30z"/>',
 }
@@ -86,7 +86,7 @@ a{color:inherit}
 .hero{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center;padding:48px 0 80px}
 h1{font:700 clamp(42px,7vw,76px)/1.05 var(--disp);letter-spacing:-.01em}
 .sub{margin-top:20px;max-width:34em;font-size:20px;line-height:1.5;opacity:.82}
-.cta{display:inline-block;margin-top:32px;padding:16px 32px;background:var(--accent);color:var(--on);font-weight:700;text-decoration:none;border-radius:8px;transition:transform .15s ease-out}
+.cta{display:inline-block;white-space:nowrap;margin-top:32px;padding:16px 32px;background:var(--accent);color:var(--on);font-weight:700;text-decoration:none;border-radius:8px;transition:transform .15s ease-out}
 .cta:hover{transform:translateY(-1px)}.cta:active{transform:scale(.97)}
 .cta:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .rate{margin-top:20px;font-size:16px;font-variant-numeric:tabular-nums}
@@ -107,7 +107,7 @@ footer{padding:24px 0;font-size:14px;opacity:.72;border-top:1px solid color-mix(
 [data-layout=poster] .sub,[data-layout=poster] .cta,[data-layout=poster] .rate{position:relative}
 [data-layout=poster] .art{position:absolute;right:-24px;bottom:-32px;max-width:340px;opacity:.16;justify-self:auto}
 [data-layout=ledger] .hero{grid-template-columns:200px 1fr;align-items:start;padding:64px 0 80px}
-[data-layout=ledger] .art{max-width:160px;justify-self:start}
+[data-layout=ledger] .art{max-width:160px;justify-self:start;order:-1}
 @media (max-width:760px){
  body{font-size:17px}.wrap{padding:0 16px}
  .hero,[data-layout=ledger] .hero{grid-template-columns:1fr;gap:32px;padding:32px 0 56px}

@@ -19,7 +19,7 @@ a{color:inherit}
 .hero{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center;padding:48px 0 80px}
 h1{font:700 clamp(42px,7vw,76px)/1.05 var(--disp);letter-spacing:-.01em}
 .sub{margin-top:20px;max-width:34em;font-size:20px;line-height:1.5;opacity:.82}
-.cta{display:inline-block;margin-top:32px;padding:16px 32px;background:var(--accent);color:var(--on);font-weight:700;text-decoration:none;border-radius:8px;transition:transform .15s ease-out}
+.cta{display:inline-block;white-space:nowrap;margin-top:32px;padding:16px 32px;background:var(--accent);color:var(--on);font-weight:700;text-decoration:none;border-radius:8px;transition:transform .15s ease-out}
 .cta:hover{transform:translateY(-1px)}.cta:active{transform:scale(.97)}
 .cta:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .rate{margin-top:20px;font-size:16px;font-variant-numeric:tabular-nums}
@@ -40,7 +40,7 @@ footer{padding:24px 0;font-size:14px;opacity:.72;border-top:1px solid color-mix(
 [data-layout=poster] .sub,[data-layout=poster] .cta,[data-layout=poster] .rate{position:relative}
 [data-layout=poster] .art{position:absolute;right:-24px;bottom:-32px;max-width:340px;opacity:.16;justify-self:auto}
 [data-layout=ledger] .hero{grid-template-columns:200px 1fr;align-items:start;padding:64px 0 80px}
-[data-layout=ledger] .art{max-width:160px;justify-self:start}
+[data-layout=ledger] .art{max-width:160px;justify-self:start;order:-1}
 @media (max-width:760px){
  body{font-size:17px}.wrap{padding:0 16px}
  .hero,[data-layout=ledger] .hero{grid-template-columns:1fr;gap:32px;padding:32px 0 56px}
@@ -56,7 +56,7 @@ footer{padding:24px 0;font-size:14px;opacity:.72;border-top:1px solid color-mix(
 <div class="wrap">
 <header class="top"><div class="brand">Mayo&#x27;s Barber Shop</div><a class="tel" href="tel:+12514734321">(251) 473-4321</a></header>
 <section class="hero"><div><h1>Hot towels and straight razors.</h1><p class="sub">Established in 1960 and going strong ever since. Like it should be.</p><a class="cta" href="tel:+12514734321">Call (251) 473-4321</a><p class="rate"><b>4.8</b> stars from 126 Google reviews</p></div>
-<div class="art" aria-hidden="true"><svg viewBox="0 0 200 240"><path d="M24 62h120l32 30-32 22H24z"/><path d="M60 114h30l-34 118H26z"/></svg></div></section>
+<div class="art" aria-hidden="true"><svg viewBox="0 0 200 240"><rect x="70" y="16" width="60" height="16" rx="8"/><rect x="70" y="208" width="60" height="16" rx="8"/><rect x="78" y="32" width="44" height="176"/><path d="M78 62l44-26v24L78 86zM78 112l44-26v24l-44 26zM78 162l44-26v24l-44 26z" fill="var(--bg)"/></svg></div></section>
 </div>
 <section class="band"><div class="wrap"><h2>What you can count on</h2><ul class="items"><li>Hot towel shaves</li><li>Straight razor work</li><li>Est. 1960</li></ul></div></section>
 <div class="wrap"><section class="visit"><div><h2>Get in touch</h2><dl><dt>Phone</dt><dd><a href="tel:+12514734321">(251) 473-4321</a></dd><dt>Email</dt><dd><a href="mailto:mayosbarbershop@gmail.com">mayosbarbershop@gmail.com</a></dd></dl></div>
