@@ -43,11 +43,11 @@ def page(b):
     if has_form:
         t,opts=b["form"]; o="".join(f'<label class="chip"><input type="radio" name="kind" value="{e(x)}"{" checked" if i==0 else ""}><span>{e(x)}</span></label>' for i,x in enumerate(opts))
         form=f'''<section class="req wrap" id="request"><div class="rv"><h2>{e(t)}</h2><p>Tell us what you need and we'll get back to you.</p></div><form class="rv" data-demo><fieldset><legend>What do you need?</legend><div class="chips">{o}</div></fieldset><label>Your name<input name="n" autocomplete="name" required></label><label>Phone or email<input name="c" required></label><label>Details<textarea name="d" rows="3"></textarea></label><button class="btn" type="submit">Send request</button><p class="ok" role="status" hidden>Demo only, nothing was sent. On the live site this goes straight to {e(b["short"])}.</p></form></section>'''
-    hrs="".join(f'<tr data-d="{i}"><th>{DAYS[i]}</th><td>{"Closed" if not h else ("Open 24 hours" if h==(0,1440) else tm(h[0])+" to "+tm(h[1]))}</td></tr>' for i,h in [(x,b["hours"][x]) for x in (1,2,3,4,5,6,0)])
+    hrs="".join(f'<tr data-d="{i}"><th>{DAYS[i]}</th><td>{"Call to confirm" if h=="call" else "Closed" if not h else ("Open 24 hours" if h==(0,1440) else tm(h[0])+" to "+tm(h[1]))}</td></tr>' for i,h in [(x,b["hours"][x]) for x in (1,2,3,4,5,6,0)])
     hn=f'<p class="hn">{e(b["hnote"])}</p>' if b["hnote"] else ""
     maps="https://www.google.com/maps?output=embed&q="+urllib.parse.quote_plus(b["name"]+" "+b["addr"])
     phone_row=f'<p><a href="{tel}">{e(b["phone"])}</a></p>' if b["phone"] else ""
-    hj=json.dumps([list(h) if h else None for h in b["hours"]])
+    hj=json.dumps([h if h=="call" else (list(h) if h else None) for h in b["hours"]])
     mobile=f'<a class="mbar" href="{tel if b["phone"] else "#request"}">{"Call "+e(b["phone"]) if b["phone"] else e(b["cta"])}</a>'
     links=('<a href="#flavors">Flavors</a>' if b.get("flavors") else "")+'<a href="#services">Services</a><a href="#visit">Hours</a>'+('<a href="#request">Contact</a>' if has_form else "")
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
