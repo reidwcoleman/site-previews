@@ -11,6 +11,6 @@ var bg=document.querySelector(".burger"),ov=document.querySelector(".ov");
 function menu(o){bg.setAttribute("aria-expanded",o);ov.hidden=!o;document.body.style.overflow=o?"hidden":""}
 bg.addEventListener("click",function(){menu(ov.hidden)});ov.addEventListener("click",function(ev){if(ev.target.tagName==="A")menu(false)});
 document.querySelectorAll("[data-hover]").forEach(function(u){var s=u.closest(".hov"),set=function(i){s.querySelectorAll("li,.pane img").forEach(function(n){n.classList.toggle("on",n.dataset.i===i)})};u.querySelectorAll("li").forEach(function(l){["mouseenter","focus"].forEach(function(v){l.addEventListener(v,function(){set(l.dataset.i)})})})});
-document.querySelectorAll(".fil button").forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.f;document.querySelectorAll(".fil button").forEach(function(x){x.classList.toggle("on",x===b)});document.querySelectorAll("[data-flav] li").forEach(function(l){l.hidden=!(f==="All"||l.dataset.t===f)})})});
+document.querySelectorAll(".fil button").forEach(function(b){b.addEventListener("click",function(){var f=b.dataset.f;document.querySelectorAll(".fil button").forEach(function(x){x.classList.toggle("on",x===b)});document.querySelectorAll("[data-flav] li").forEach(function(l){if(l.dataset.t)l.hidden=!(f==="All"||l.dataset.t===f)})})});
 document.querySelectorAll("form[data-demo]").forEach(function(f){f.addEventListener("submit",function(ev){ev.preventDefault();f.querySelector(".ok").hidden=false;f.reset()})});
 })();

@@ -60,13 +60,13 @@ def sec_numeral(b,d,tel):
 def sec_statement(b,d,tel):
     return f'<section class="statement wrap rv"><h2>{e(b["story"][0])}</h2><p>{e(b["story"][1])}</p></section>'
 def sec_photo(b,d,tel):
-    i=d["imgs"][-1]
+    i=d.get("photo") or d["imgs"][-1]
     return f'<section class="photo wrap"><div class="bz rv"><img src="{U(i,1200)}" alt="" loading="lazy"></div><div class="rv"><h2>{e(b["story"][0])}</h2><p>{e(b["story"][1])}</p></div></section>'
 def sec_mosaic(b,d,tel):
     im=d["imgs"][-4:] if len(d["imgs"])>=4 else d["imgs"]
     return '<section class="mosaic wrap rv">'+"".join(f'<img src="{U(i,1200)}" alt="" loading="lazy">' for i in im)+'</section>'
 def sec_scroll(b,d,tel):
-    im=d["imgs"]+[d["heroimg"]]
+    im=d.get("gallery") or d["imgs"]+[d["heroimg"]]
     return '<section class="gs" tabindex="0" aria-label="Photos"><div>'+"".join(f'<img src="{U(i,1000)}" alt="" loading="lazy">' for i in im)+'</div></section>'
 def sec_marquee(b,d,tel):
     w="".join(f'<li>{e(t)}<i class="ph-light ph-star"></i></li>' for t,_ in b["topics"])
@@ -84,7 +84,7 @@ def sec_flavors(b,d,tel):
     tags=d["tags"]; cats=["All"]+sorted(set(tags))
     ch="".join(f'<button type="button" class="{"on" if c=="All" else ""}" data-f="{e(c)}">{e(c)}</button>' for c in cats)
     cards="".join(f'<li data-t="{e(t)}"><h3>{e(n)}</h3><p>{e(x)}</p></li>' for (n,x),t in zip(b["flavors"],tags))
-    return f'<section class="flav wrap" id="flavors"><h2 class="rv">The flavors people drive for</h2><p class="rv lead">A different selection every day. Here are some favorites.</p><div class="fil rv" role="group" aria-label="Filter flavors">{ch}</div><ul class="rv" data-flav>{cards}</ul></section>'
+    return f'<section class="flav wrap" id="flavors"><h2 class="rv">The flavors people drive for</h2><p class="rv lead">A different selection every day. Here are some favorites.</p><div class="fil rv" role="group" aria-label="Filter flavors">{ch}</div><ul class="rv" data-flav>{cards}<li class="today"><h3>What's in the case today?</h3><p>Flavors change daily. Call the shop to find out.</p><a class="dl" href="{tel}"><i class="ph-light ph-phone"></i>{e(b["phone"])}</a></li></ul></section>'
 def sec_req(b,d,tel):
     t,opts=b["form"]; o="".join(f'<label class="chip"><input type="radio" name="kind" value="{e(x)}"{" checked" if i==0 else ""}><span>{e(x)}</span></label>' for i,x in enumerate(opts))
     direct=f'<a class="dl" href="{tel}"><i class="ph-light ph-phone"></i>{e(b["phone"])}</a>' if b["phone"] else ""

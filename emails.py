@@ -18,7 +18,7 @@ My name is Reid. I came across {nm} on Google Maps and liked seeing {b['hook']}.
 
 {b['url']}
 
-It already has your services, hours, a map and a request form. The photos are samples until yours go in, and anything can be changed.
+It already has your services, hours, a map and a request form. The photos are samples until yours go in. You can request to change anything you want, from the wording to the colors to the layout, and I'll update it for you.
 
 If you like it, what would you be willing to pay for it? Any number helps, and there's no obligation at all.
 
