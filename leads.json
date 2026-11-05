@@ -1,56 +1,1327 @@
 [
  {
+  "slug": "mayos-barber-shop",
+  "name": "Mayo's Barber Shop",
+  "short": "Mayo's",
+  "email": "mayosbarbershop@gmail.com",
+  "phone": "(251) 473-4321",
+  "addr": "1868 Airport Blvd, Mobile, AL 36606",
+  "city": "Mobile, Alabama",
+  "tz": "America/Chicago",
+  "hero": "immersive",
+  "font": "Abril Fatface",
+  "bfont": "Karla",
+  "bg": "#14110E",
+  "ink": "#F5ECDE",
+  "accent": "#D8A545",
+  "on": "#14110E",
+  "tint": "#211C17",
+  "line": "#3A3229",
+  "r": 2,
+  "eyebrow": "Mobile, Alabama. Since 1960.",
+  "head": "Hot towels and straight razors, like it should be.",
+  "sub": "An old-school barbershop on Airport Boulevard, going strong for more than 60 years.",
+  "cta": "Call the shop",
+  "rating": "4.8",
+  "reviews": 126,
+  "facts": [
+   "Est. 1960",
+   "Walk through the door and it still feels like a real barbershop",
+   "Friendly staff, mentioned in 21 reviews"
+  ],
+  "stitle": "The chair, the razor, the conversation.",
+  "services": [
+   [
+    "Haircuts",
+    "Cuts for men and teenage boys, done the way you ask for them."
+   ],
+   [
+    "Straight razor shaves",
+    "Hot towel and a straight razor. The service customers bring up again and again."
+   ],
+   [
+    "Beard trims",
+    "Clean lines and shaping from barbers who take their time."
+   ],
+   [
+    "Beard oils",
+    "A wide selection of oils on the shelf to take home."
+   ]
+  ],
+  "story": [
+   "Sixty-plus years on Airport Blvd",
+   "Mayo's opened in 1960 and never chased a trend. Customers still describe it the same way: old style, friendly, and full of good conversation."
+  ],
+  "topics": [
+   [
+    "Friendly staff",
+    21
+   ],
+   [
+    "Straight razor shave",
+    7
+   ],
+   [
+    "Old style barbershop",
+    5
+   ],
+   [
+    "Hot towels",
+    3
+   ],
+   [
+    "Beard trim",
+    3
+   ]
+  ],
+  "hours": [
+   null,
+   null,
+   [
+    540,
+    1050
+   ],
+   [
+    540,
+    1050
+   ],
+   [
+    540,
+    1050
+   ],
+   [
+    540,
+    1050
+   ],
+   [
+    540,
+    840
+   ]
+  ],
+  "hnote": "Monday hours: call the shop to confirm.",
+  "form": null,
+  "photos": [
+   "1503951914875-452162b0f3f1",
+   "1599351431202-1e0f0137899a",
+   "1519500528352-2d1460418d41",
+   "1621607505833-616916c46a25"
+  ],
+  "why": "fb",
+  "hook": "a shop going strong since 1960 with 4.8 stars from 126 Google reviews",
+  "url": "https://reidwcoleman.github.io/site-previews/mayos-barber-shop/"
+ },
+ {
   "slug": "mailes-tree-service",
   "name": "Mailes Tree Service",
+  "short": "Mailes",
   "email": "mailestreeservice@gmail.com",
   "phone": "(417) 849-6883",
   "addr": "4714 N Peace Church Ave, Joplin, MO",
   "city": "Joplin, Missouri",
-  "head": "Need a tree removed?",
-  "sub": "Get a free quote today. Fully licensed, bonded and insured.",
-  "items": [
-   "Tree removal",
-   "Free quotes",
-   "Licensed, bonded and insured"
-  ],
+  "tz": "America/Chicago",
+  "hero": "immersive",
+  "font": "Bitter",
+  "bfont": "Source Sans 3",
+  "bg": "#F4F1E6",
+  "ink": "#1B261C",
+  "accent": "#2E6B3E",
+  "on": "#FFFFFF",
+  "tint": "#E6E4D2",
+  "line": "#CFCDB8",
+  "r": 6,
+  "eyebrow": "Joplin, Missouri",
+  "head": "Tricky trees, handled safely.",
+  "sub": "Removal, trimming, stump grinding and full cleanup from a licensed, bonded and insured crew. Free quotes.",
+  "cta": "Get a free quote",
   "rating": "4.9",
   "reviews": 31,
-  "motif": "tree",
-  "layout": "split",
-  "font": "Bitter",
-  "bg": "#F3F0E4",
-  "ink": "#1E2A1F",
-  "accent": "#2F5D3A",
-  "on": "#FFFFFF",
-  "tint": "#E3E3CF",
-  "why": "no-site",
-  "hook": "your 4.9 stars on Google",
+  "facts": [
+   "Fully licensed, bonded and insured",
+   "Free quotes",
+   "Open 24 hours, Monday to Saturday"
+  ],
+  "stitle": "From the first cut to the last rake.",
+  "services": [
+   [
+    "Tree removal",
+    "Including tight spots between homes and near utilities."
+   ],
+   [
+    "Trimming",
+    "Shape and clear branches without losing the tree."
+   ],
+   [
+    "Stump grinding",
+    "Get rid of what's left and take your yard back."
+   ],
+   [
+    "Debris and yard cleanup",
+    "The crew leaves the place clean when the job is done."
+   ]
+  ],
+  "story": [
+   "Run by Brandon and an efficient crew",
+   "Customers talk about the same things: constant communication, even when winter weather keeps changing the plan, and clean work on jobs that looked impossible."
+  ],
+  "topics": [
+   [
+    "Job quality",
+    5
+   ],
+   [
+    "Efficient crew",
+    3
+   ],
+   [
+    "Trimming",
+    3
+   ],
+   [
+    "Stump grinding",
+    2
+   ],
+   [
+    "Yard cleanup",
+    2
+   ]
+  ],
+  "hours": [
+   null,
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Get your free quote",
+   [
+    "Tree removal",
+    "Trimming",
+    "Stump grinding",
+    "Cleanup"
+   ]
+  ],
+  "photos": [
+   "1765064519883-651c506ec70d",
+   "1765064519342-deae9d37579b",
+   "1774087178364-b1c5b89a1d7a",
+   "1765064520254-229dbf995bcb"
+  ],
+  "why": "none",
+  "hook": "your 4.9 stars on Google, especially the reviews about that tricky removal between two homes",
   "url": "https://reidwcoleman.github.io/site-previews/mailes-tree-service/"
+ },
+ {
+  "slug": "el-rancho-kennels",
+  "name": "El Rancho Kennels",
+  "short": "El Rancho",
+  "email": "Elranchokennels@gmail.com",
+  "phone": "(207) 825-3242",
+  "addr": "418 Johnson Mill Rd, Orrington, ME 04474",
+  "city": "Orrington, Maine",
+  "tz": "America/New_York",
+  "hero": "split",
+  "font": "Fraunces",
+  "bfont": "Nunito Sans",
+  "bg": "#FBF3E7",
+  "ink": "#33201A",
+  "accent": "#B23E22",
+  "on": "#FFFFFF",
+  "tint": "#F4E4CD",
+  "line": "#E6D2B4",
+  "r": 20,
+  "eyebrow": "Family owned in Orrington, Maine",
+  "head": "Their vacation while you're on yours.",
+  "sub": "Boarding, daycare and grooming at a small, family owned kennel that dog owners trust with their anxious pups.",
+  "cta": "Book a stay",
+  "rating": "4.9",
+  "reviews": 92,
+  "facts": [
+   "Family owned and operated",
+   "Boarding, daycare and grooming",
+   "Great with anxious dogs"
+  ],
+  "stitle": "Everything under one friendly roof.",
+  "services": [
+   [
+    "Boarding",
+    "A safe, loving place for your dog while you're away."
+   ],
+   [
+    "Daycare",
+    "Playtime and socialization with people dogs get excited to see."
+   ],
+   [
+    "Grooming",
+    "Book a groom during a stay or on its own."
+   ]
+  ],
+  "story": [
+   "Small on purpose",
+   "Megan and the crew are the reason owners keep coming back. Reviews describe going above and beyond to keep every dog safe and happy."
+  ],
+  "topics": [
+   [
+    "Daycare",
+    8
+   ],
+   [
+    "Dog care",
+    5
+   ],
+   [
+    "Anxious dogs",
+    2
+   ],
+   [
+    "Socialization",
+    2
+   ]
+  ],
+  "hours": [
+   [
+    960,
+    1080
+   ],
+   [
+    480,
+    1080
+   ],
+   [
+    480,
+    1080
+   ],
+   [
+    480,
+    1080
+   ],
+   [
+    480,
+    1080
+   ],
+   [
+    480,
+    1080
+   ],
+   [
+    540,
+    720
+   ]
+  ],
+  "hnote": "Saturdays also open 5 to 6 PM for pickups.",
+  "form": [
+   "Request a stay",
+   [
+    "Boarding",
+    "Daycare",
+    "Grooming"
+   ]
+  ],
+  "photos": [
+   "1787152467585-3b6a11777ebd",
+   "1743763959056-41bbb557272d",
+   "1622314277252-d06e7a162947",
+   "1777383504729-2a33a1de3649"
+  ],
+  "why": "fb",
+  "hook": "your 4.9 stars from 92 Google reviews",
+  "url": "https://reidwcoleman.github.io/site-previews/el-rancho-kennels/"
+ },
+ {
+  "slug": "head-to-tail-grooming",
+  "name": "Head to Tail Professional Pet Grooming",
+  "short": "Head to Tail",
+  "email": "headtotailvt@icloud.com",
+  "phone": "(802) 772-4556",
+  "addr": "144 Grove St, Rutland, VT",
+  "city": "Rutland, Vermont",
+  "tz": "America/New_York",
+  "hero": "split",
+  "font": "DM Serif Display",
+  "bfont": "DM Sans",
+  "bg": "#F2F3EC",
+  "ink": "#20281D",
+  "accent": "#4F6B35",
+  "on": "#FFFFFF",
+  "tint": "#E3E7D5",
+  "line": "#CFD5BE",
+  "r": 16,
+  "eyebrow": "Rutland, Vermont",
+  "head": "Nervous pups leave happy.",
+  "sub": "Gentle, professional grooming for dogs and cats of every size, from Maltese to German shepherds.",
+  "cta": "Book a groom",
+  "rating": "4.8",
+  "reviews": 106,
+  "facts": [
+   "Dogs and cats welcome",
+   "Caring staff, mentioned in 18 reviews",
+   "Open Tuesday to Saturday"
+  ],
+  "stitle": "Groomed from head to tail.",
+  "services": [
+   [
+    "Full dog grooming",
+    "Small breeds to big ones. Labs, goldens, Akitas and shepherds all welcome."
+   ],
+   [
+    "Cat grooming",
+    "Yes, cats too. A rare find, and customers love it."
+   ],
+   [
+    "Nail trims",
+    "The most requested quick service, mentioned in 9 reviews."
+   ],
+   [
+    "Trimming and tidy-ups",
+    "Keep them neat between full grooms."
+   ]
+  ],
+  "story": [
+   "A calm room makes all the difference",
+   "Owners of nervous dogs keep writing the same thing: gentle hands, a calm atmosphere, and dogs who are happy to walk back in."
+  ],
+  "topics": [
+   [
+    "Caring staff",
+    18
+   ],
+   [
+    "Nail trim",
+    9
+   ],
+   [
+    "Trimming",
+    6
+   ],
+   [
+    "Cat grooming",
+    4
+   ],
+   [
+    "German shepherd",
+    3
+   ]
+  ],
+  "hours": [
+   null,
+   null,
+   [
+    480,
+    990
+   ],
+   [
+    480,
+    990
+   ],
+   [
+    480,
+    990
+   ],
+   [
+    480,
+    990
+   ],
+   [
+    480,
+    990
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Request an appointment",
+   [
+    "Dog grooming",
+    "Cat grooming",
+    "Nail trim"
+   ]
+  ],
+  "photos": [
+   "1534361960057-19889db9621e",
+   "1611173622933-91942d394b04",
+   "1537151608828-ea2b11777ee8",
+   "1560743641-3914f2c45636"
+  ],
+  "why": "fb",
+  "hook": "your 4.8 stars from 106 Google reviews, and that you groom cats too",
+  "url": "https://reidwcoleman.github.io/site-previews/head-to-tail-grooming/"
+ },
+ {
+  "slug": "erikas-dog-gone-grooming",
+  "name": "Erika's Dog-Gone Grooming Salon",
+  "short": "Erika's",
+  "email": "doggonegroomingsalon22@gmail.com",
+  "phone": "(615) 675-4189",
+  "addr": "895 South Water Ave, Gallatin, TN",
+  "city": "Gallatin, Tennessee",
+  "tz": "America/Chicago",
+  "hero": "split",
+  "font": "Young Serif",
+  "bfont": "Figtree",
+  "bg": "#EDF4F5",
+  "ink": "#12303A",
+  "accent": "#136B80",
+  "on": "#FFFFFF",
+  "tint": "#DAE9EC",
+  "line": "#C2D8DD",
+  "r": 24,
+  "eyebrow": "Gallatin, Tennessee",
+  "head": "One dog at a time. Especially the old ones.",
+  "sub": "One-on-one grooming that specializes in senior dogs, so they never have to wait in a noisy room.",
+  "cta": "Book one-on-one",
+  "rating": null,
+  "reviews": 0,
+  "facts": [
+   "One-on-one appointments",
+   "Senior dog specialist",
+   "Tuesday to Saturday, 8 to 4"
+  ],
+  "stitle": "Slower, quieter, kinder.",
+  "services": [
+   [
+    "One-on-one grooming",
+    "Your dog gets the whole salon to themselves."
+   ],
+   [
+    "Senior dog care",
+    "Extra patience for stiff joints and tired legs."
+   ],
+   [
+    "Small breed grooms",
+    "Yorkies and shih tzus are regulars here."
+   ],
+   [
+    "Nail trims",
+    "A quick visit, mentioned in more reviews than anything but breeds."
+   ]
+  ],
+  "story": [
+   "Built around older dogs",
+   "Most groomers are set up for speed. Erika's is set up for the dogs who need things done gently."
+  ],
+  "topics": [
+   [
+    "Caring staff",
+    7
+   ],
+   [
+    "Yorkie",
+    7
+   ],
+   [
+    "Nail trim",
+    7
+   ],
+   [
+    "Kind groomer",
+    5
+   ],
+   [
+    "Shih tzu grooming",
+    4
+   ]
+  ],
+  "hours": [
+   null,
+   null,
+   [
+    480,
+    960
+   ],
+   [
+    480,
+    960
+   ],
+   [
+    480,
+    960
+   ],
+   [
+    480,
+    960
+   ],
+   [
+    480,
+    960
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Request an appointment",
+   [
+    "Full groom",
+    "Senior groom",
+    "Nail trim"
+   ]
+  ],
+  "photos": [
+   "1587300003388-59208cc962cb",
+   "1608469926865-b2d2200bb2f6",
+   "1782410103928-ef1bd744d431",
+   "1642303009699-7d7fd6d4a243"
+  ],
+  "why": "none",
+  "hook": "your one-on-one grooming for senior dogs",
+  "url": "https://reidwcoleman.github.io/site-previews/erikas-dog-gone-grooming/"
+ },
+ {
+  "slug": "margies-mixing-bowl",
+  "name": "Margie's Mixing Bowl",
+  "short": "Margie's",
+  "email": "info@margiesmixingbowl.com",
+  "phone": "(601) 207-0111",
+  "addr": "4920 Poplar Springs Dr, Meridian, MS 39305",
+  "city": "Meridian, Mississippi",
+  "tz": "America/Chicago",
+  "hero": "frame",
+  "font": "Playfair Display",
+  "bfont": "Mulish",
+  "bg": "#FFF6F4",
+  "ink": "#3B1626",
+  "accent": "#C2286B",
+  "on": "#FFFFFF",
+  "tint": "#FCE4E6",
+  "line": "#F3CDD3",
+  "r": 18,
+  "eyebrow": "Voted Meridian's Best Bakery",
+  "head": "Gourmet cupcakes worth the drive.",
+  "sub": "A different selection every day, plus one-of-a-kind cakes made to order for the moments that deserve one.",
+  "cta": "Order a cake",
+  "rating": "4.6",
+  "reviews": 78,
+  "facts": [
+   "Best Bakery 8 years in a row",
+   "Meridian Star Readers' Choice, 2016 to 2022",
+   "New flavors every day"
+  ],
+  "stitle": "Cakes made to order.",
+  "services": [
+   [
+    "Birthday cakes",
+    "From the elegant to the outrageous."
+   ],
+   [
+    "Wedding cakes",
+    "One-of-a-kind cakes for the big day."
+   ],
+   [
+    "Shower cakes",
+    "Showers, gender reveals and everything between."
+   ],
+   [
+    "Specialty and gourmet cakes",
+    "If the occasion is begging for a special cake, Margie's is here to help."
+   ]
+  ],
+  "story": [
+   "It started with one first birthday",
+   "In 2009, Margie baked her daughter's first birthday cake herself and posted a picture on Facebook. The requests never stopped. Hundreds of cakes later, Margie's Mixing Bowl became the shop Meridian keeps voting its best."
+  ],
+  "topics": [
+   [
+    "Cupcakes",
+    32
+   ],
+   [
+    "Moist cake",
+    4
+   ],
+   [
+    "Buttercream",
+    2
+   ],
+   [
+    "Red velvet",
+    2
+   ],
+   [
+    "Macaroons",
+    2
+   ]
+  ],
+  "hours": [
+   null,
+   null,
+   null,
+   [
+    600,
+    1050
+   ],
+   [
+    600,
+    1050
+   ],
+   [
+    660,
+    1050
+   ],
+   [
+    600,
+    840
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Ask about a custom cake",
+   [
+    "Birthday",
+    "Wedding",
+    "Shower",
+    "Specialty"
+   ]
+  ],
+  "flavors": [
+   [
+    "Lemon Ice Box",
+    "White cupcake, lemon ice box filling, lemon icing, graham cracker crumbs"
+   ],
+   [
+    "Wedding Cake",
+    "White cupcake, whipped cream filling, wedding buttercream"
+   ],
+   [
+    "Strawberry Cheesecake",
+    "White cupcake, cheesecake filling, fresh strawberry icing, graham crumbs"
+   ],
+   [
+    "Cookies N' Cream",
+    "Chocolate cupcake, cookies n cream filling and icing"
+   ],
+   [
+    "Mississippi Mud",
+    "Chocolate cupcake, marshmallow filling, chocolate icing, pecans, ganache"
+   ],
+   [
+    "Samoa",
+    "Coconut cupcake, ganache filling, caramel icing, toasted coconut"
+   ],
+   [
+    "Strawberry Shortcake",
+    "Angel food cupcake, whipped cream filling, fresh strawberry icing"
+   ],
+   [
+    "Birthday Cake",
+    "White cupcake, pink buttercream, sprinkles"
+   ],
+   [
+    "Red Velvet Cheesecake",
+    "Red velvet cupcake, cheesecake filling, cream cheese icing"
+   ],
+   [
+    "Salted Caramel",
+    "White cupcake, caramel icing, sea salt, caramel drizzle"
+   ],
+   [
+    "Turtle Cheesecake",
+    "Chocolate cupcake, cheesecake filling, caramel, chocolate, pecans"
+   ]
+  ],
+  "photos": [
+   "1599785209796-786432b228bc",
+   "1563729784474-d77dbb933a9e",
+   "1599785209758-243af93bd074",
+   "1565498253128-c06e0488ddee"
+  ],
+  "why": "old",
+  "hook": "all those Best Bakery wins",
+  "url": "https://reidwcoleman.github.io/site-previews/margies-mixing-bowl/"
+ },
+ {
+  "slug": "elidas-bakery",
+  "name": "Elida's Bakery",
+  "short": "Elida's",
+  "email": "elidasbakery@gmail.com",
+  "phone": null,
+  "addr": "2128 S Riverside Dr #99, Iowa City, IA 52246",
+  "city": "Iowa City, Iowa",
+  "tz": "America/Chicago",
+  "hero": "frame",
+  "font": "Cormorant Garamond",
+  "bfont": "Jost",
+  "bg": "#FBF6EF",
+  "ink": "#2F2019",
+  "accent": "#8E4A2F",
+  "on": "#FFFFFF",
+  "tint": "#F2E7D8",
+  "line": "#E3D3BC",
+  "r": 4,
+  "eyebrow": "Iowa City. Se habla español.",
+  "head": "Cakes that taste as good as they look.",
+  "sub": "Custom cakes, cupcakes and famous tres leches from a licensed bakery in Iowa City, with curbside pickup.",
+  "cta": "Start your cake",
+  "rating": "4.9",
+  "reviews": 58,
+  "facts": [
+   "Licensed bakery",
+   "Curbside pickup",
+   "Se habla español"
+  ],
+  "stitle": "Made for your day.",
+  "services": [
+   [
+    "Custom cakes",
+    "Designed around your celebration."
+   ],
+   [
+    "Tres leches",
+    "Elida's most talked-about cake, mentioned in 5 reviews."
+   ],
+   [
+    "Wedding and bridal shower cakes",
+    "Elegant tiers and pretty shower cakes."
+   ],
+   [
+    "Cupcakes",
+    "By the dozen for parties and events."
+   ]
+  ],
+  "story": [
+   "Find us at the market too",
+   "Elida's has been a favorite at the Corridor Holiday Market in Coralville, where customers line up for a great variety of sweets."
+  ],
+  "topics": [
+   [
+    "Cupcakes",
+    6
+   ],
+   [
+    "Tres leches",
+    5
+   ],
+   [
+    "Wedding cake",
+    4
+   ],
+   [
+    "Custom cakes",
+    3
+   ],
+   [
+    "Marble cake",
+    2
+   ]
+  ],
+  "hours": [
+   [
+    600,
+    900
+   ],
+   null,
+   [
+    600,
+    900
+   ],
+   [
+    600,
+    900
+   ],
+   [
+    600,
+    900
+   ],
+   [
+    600,
+    960
+   ],
+   [
+    600,
+    960
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Start your cake order",
+   [
+    "Custom cake",
+    "Tres leches",
+    "Wedding",
+    "Cupcakes"
+   ]
+  ],
+  "photos": [
+   "1535141192574-5d4897c12636",
+   "1623428454614-abaf00244e52",
+   "1612203985729-70726954388c",
+   "1525257831700-183b9b8bf5c4"
+  ],
+  "why": "fb",
+  "hook": "your custom cakes, your tres leches and 4.9 stars from 58 Google reviews",
+  "url": "https://reidwcoleman.github.io/site-previews/elidas-bakery/"
+ },
+ {
+  "slug": "shepros-auto-repair",
+  "name": "Shepro's Auto Repair",
+  "short": "Shepro's",
+  "email": "sheprosautorepair@gmail.com",
+  "phone": "(906) 753-5823",
+  "addr": "S955 US Highway 41, Stephenson, MI",
+  "city": "Stephenson, Michigan",
+  "tz": "America/Chicago",
+  "hero": "immersive",
+  "font": "Oswald",
+  "bfont": "Inter",
+  "bg": "#111315",
+  "ink": "#F0F1F2",
+  "accent": "#E33B2E",
+  "on": "#FFFFFF",
+  "tint": "#1B1E21",
+  "line": "#2F3337",
+  "r": 4,
+  "eyebrow": "Highway 41, Stephenson, Michigan",
+  "head": "Honest work. Every time.",
+  "sub": "The kind of shop you stop worrying about your vehicle at. Owned and run by people who go the extra mile.",
+  "cta": "Call the shop",
+  "rating": "4.9",
+  "reviews": 74,
+  "facts": [
+   "Known for honest work",
+   "Brakes and full repair",
+   "Monday to Friday"
+  ],
+  "stitle": "Bring it in. We'll sort it out.",
+  "services": [
+   [
+    "General auto repair",
+    "Trucks and cars, from stuck 4WD to everyday problems."
+   ],
+   [
+    "Brake work",
+    "Mentioned by name in customer reviews."
+   ],
+   [
+    "Diagnostics",
+    "Find the real problem before anyone spends a dollar."
+   ]
+  ],
+  "story": [
+   "People who care about customers",
+   "Reviewers keep using the same words: professional, friendly and honest. Owner Chad and the team have built a shop people trust."
+  ],
+  "topics": [
+   [
+    "Quality work",
+    4
+   ],
+   [
+    "Honest work",
+    3
+   ],
+   [
+    "Brake work",
+    2
+   ],
+   [
+    "Caring staff",
+    2
+   ],
+   [
+    "Customer care",
+    2
+   ]
+  ],
+  "hours": [
+   null,
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    720
+   ],
+   null
+  ],
+  "hnote": null,
+  "form": [
+   "Tell us what's wrong",
+   [
+    "Brakes",
+    "Won't start",
+    "Strange noise",
+    "Other"
+   ]
+  ],
+  "photos": [
+   "1619642751034-765dfdf7c58e",
+   "1631720040176-0d789a643a78",
+   "1702146713922-613313be011d",
+   "1702146713858-8e7d1cc29fe8"
+  ],
+  "why": "none",
+  "hook": "your 4.9 stars from 74 Google reviews",
+  "url": "https://reidwcoleman.github.io/site-previews/shepros-auto-repair/"
+ },
+ {
+  "slug": "precision-landscaping",
+  "name": "Precision Landscaping",
+  "short": "Precision",
+  "email": "theprecisionlandscaping@yahoo.com",
+  "phone": "(785) 829-7401",
+  "addr": "1413 Beverly Dr, Salina, KS 67401",
+  "city": "Salina, Kansas",
+  "tz": "America/Chicago",
+  "hero": "frame",
+  "font": "Libre Caslon Text",
+  "bfont": "Libre Franklin",
+  "bg": "#F3EFE7",
+  "ink": "#26231E",
+  "accent": "#7C4A24",
+  "on": "#FFFFFF",
+  "tint": "#E6DFD2",
+  "line": "#D4CBB9",
+  "r": 2,
+  "eyebrow": "Hardscape and landscaping in Salina, Kansas",
+  "head": "Outdoor spaces built to last.",
+  "sub": "Retaining walls, sod, garden removal and full backyard overhauls, done exactly the way Chris says they'll be done.",
+  "cta": "Plan your project",
+  "rating": "4.5",
+  "reviews": 13,
+  "facts": [
+   "Hardscape specialists",
+   "Full backyard overhauls",
+   "Monday to Friday, 8 to 5"
+  ],
+  "stitle": "What we build.",
+  "services": [
+   [
+    "Hardscape",
+    "Stonework that holds up to Kansas weather."
+   ],
+   [
+    "Retaining walls",
+    "New builds and repairs."
+   ],
+   [
+    "Backyard overhauls",
+    "Clearing overgrown gardens and starting fresh."
+   ],
+   [
+    "Sod and landscaping",
+    "Finish the job with a yard that looks finished."
+   ]
+  ],
+  "story": [
+   "He does what he says he'll do",
+   "That's the line customers repeat about Chris and his crew. Clear plans, solid work, and yards that look completely different when they leave."
+  ],
+  "topics": [
+   [
+    "Work",
+    5
+   ],
+   [
+    "Backyard overhaul",
+    2
+   ],
+   [
+    "Quality of work",
+    2
+   ],
+   [
+    "Landscaping",
+    2
+   ]
+  ],
+  "hours": [
+   null,
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   null
+  ],
+  "hnote": null,
+  "form": [
+   "Tell us about your yard",
+   [
+    "Hardscape",
+    "Retaining wall",
+    "Backyard overhaul",
+    "Sod"
+   ]
+  ],
+  "photos": [
+   "1761637823293-f96835ec5038",
+   "1761637823941-0ffae96ec487",
+   "1762480853598-894a6b43b4c7",
+   "1726731174811-cd58559162ee"
+  ],
+  "why": "fb",
+  "hook": "your retaining wall and backyard overhaul reviews",
+  "url": "https://reidwcoleman.github.io/site-previews/precision-landscaping/"
+ },
+ {
+  "slug": "ck-precision-painting",
+  "name": "C&K Precision Painting LLC",
+  "short": "C&K",
+  "email": "ckprecisionpainting@gmail.com",
+  "phone": "(218) 221-2446",
+  "addr": "3167 Midway Rd, Proctor, MN 55810",
+  "city": "the Twin Ports",
+  "tz": "America/Chicago",
+  "hero": "frame",
+  "font": "Sora",
+  "bfont": "Sora",
+  "bg": "#F6F6F3",
+  "ink": "#171B2B",
+  "accent": "#2746C7",
+  "on": "#FFFFFF",
+  "tint": "#E7E9F1",
+  "line": "#D3D6E2",
+  "r": 12,
+  "eyebrow": "Serving the Twin Ports for 22-plus years",
+  "head": "Painting with pride and passion.",
+  "sub": "Interior and exterior painting for homes and businesses. Licensed, insured, locally owned and family run.",
+  "cta": "Get a free estimate",
+  "rating": "5.0",
+  "reviews": 11,
+  "facts": [
+   "22-plus years",
+   "Licensed and insured",
+   "Free estimates"
+  ],
+  "stitle": "Inside, outside, done right.",
+  "services": [
+   [
+    "Exterior painting",
+    "A full refresh that makes the whole house feel new."
+   ],
+   [
+    "Interior painting",
+    "Clean lines, careful prep, and rooms ready when promised."
+   ],
+   [
+    "Commercial work",
+    "Businesses across the Twin Ports."
+   ],
+   [
+    "Free estimates",
+    "On time to the meeting, with a contract within days."
+   ]
+  ],
+  "story": [
+   "Charles shows up when he says he will",
+   "Customers call him courteous, knowledgeable and organized, with clear communication from the first meeting through the last coat."
+  ],
+  "topics": [
+   [
+    "Painting",
+    4
+   ],
+   [
+    "Home",
+    4
+   ],
+   [
+    "Courteous staff",
+    3
+   ],
+   [
+    "Exterior painting",
+    3
+   ],
+   [
+    "Communication",
+    3
+   ]
+  ],
+  "hours": [
+   null,
+   [
+    480,
+    1200
+   ],
+   [
+    480,
+    1200
+   ],
+   [
+    480,
+    1200
+   ],
+   [
+    480,
+    1200
+   ],
+   [
+    480,
+    1200
+   ],
+   null
+  ],
+  "hnote": null,
+  "form": [
+   "Request your free estimate",
+   [
+    "Exterior",
+    "Interior",
+    "Commercial"
+   ]
+  ],
+  "photos": [
+   "1759406066673-f76869a4e6db",
+   "1574359411659-15573a27fd0c",
+   "1786295866816-89841e942221",
+   "1687690450363-6b8f9ad72b93"
+  ],
+  "why": "fb",
+  "hook": "your 22-plus years painting around the Twin Ports",
+  "url": "https://reidwcoleman.github.io/site-previews/ck-precision-painting/"
  },
  {
   "slug": "rooneys-renovating",
   "name": "Rooney's Renovating LLC",
+  "short": "Rooney's",
   "email": "RooneysRenovating@gmail.com",
   "phone": "(419) 595-0506",
   "addr": "Brookville, OH",
   "city": "Brookville, Ohio",
-  "head": "Maintenance, turns and full rehabs.",
-  "sub": "Rooney's Renovating handles maintenance requests, unit turns and full rehabs out of Brookville, Ohio.",
-  "items": [
-   "Maintenance requests",
-   "Unit turns",
-   "Full rehabs"
-  ],
-  "rating": null,
-  "reviews": 0,
-  "motif": "tools",
-  "layout": "poster",
+  "tz": "America/New_York",
+  "hero": "split",
   "font": "Archivo",
-  "bg": "#14202E",
-  "ink": "#EEF2F6",
-  "accent": "#F2913D",
-  "on": "#14202E",
-  "tint": "#1F2F42",
+  "bfont": "Archivo",
+  "bg": "#F5F3EE",
+  "ink": "#15202C",
+  "accent": "#D2691E",
+  "on": "#FFFFFF",
+  "tint": "#E8E5DC",
+  "line": "#D5D1C4",
+  "r": 8,
+  "eyebrow": "Brookville, Ohio",
+  "head": "From a new door to a full rehab.",
+  "sub": "Maintenance requests, unit turns and full rehabs, with fast replies and work finished in hours, not weeks.",
+  "cta": "Request a quote",
+  "rating": "5.0",
+  "reviews": 5,
+  "facts": [
+   "Quick to respond",
+   "Landlords and homeowners",
+   "Open six days a week"
+  ],
+  "stitle": "Small fixes. Big rehabs.",
+  "services": [
+   [
+    "Maintenance requests",
+    "Fast help for property managers and homeowners."
+   ],
+   [
+    "Unit turns",
+    "Get rentals ready for the next tenant."
+   ],
+   [
+    "Full rehabs",
+    "Take a property down to the studs and bring it back."
+   ],
+   [
+    "Doors, fans and fixtures",
+    "New front doors and frames, exhaust fans, lighting and more."
+   ]
+  ],
+  "story": [
+   "Andrew gets back to you",
+   "Reviewers mention quick communication first and quality work second. A new front door and frame went in within a few hours."
+  ],
+  "topics": [
+   [
+    "Quality work",
+    2
+   ],
+   [
+    "Communication",
+    2
+   ]
+  ],
+  "hours": [
+   null,
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    480,
+    1020
+   ],
+   [
+    540,
+    780
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Request a quote",
+   [
+    "Maintenance",
+    "Unit turn",
+    "Full rehab",
+    "Other"
+   ]
+  ],
+  "photos": [
+   "1618832515490-e181c4794a45",
+   "1505798577917-a65157d3320a",
+   "1606676539940-12768ce0e762",
+   "1679797850019-3d0d8659a695"
+  ],
   "why": "fb",
   "hook": "the maintenance, unit turn and rehab work you do",
   "url": "https://reidwcoleman.github.io/site-previews/rooneys-renovating/"
@@ -58,303 +1329,196 @@
  {
   "slug": "holder-lawn-service",
   "name": "Holder Lawn Service",
+  "short": "Holder",
   "email": "holderlawnservice@gmail.com",
   "phone": "(662) 523-5922",
   "addr": "745 CR 931, Tupelo, MS",
   "city": "Northeast Mississippi",
+  "tz": "America/Chicago",
+  "hero": "immersive",
+  "font": "Rubik",
+  "bfont": "Rubik",
+  "bg": "#F0F4E8",
+  "ink": "#1B2914",
+  "accent": "#3B7A1F",
+  "on": "#FFFFFF",
+  "tint": "#E0E8D2",
+  "line": "#CBD6BA",
+  "r": 14,
+  "eyebrow": "Serving Northeast Mississippi",
   "head": "Get your yard back.",
-  "sub": "Lawn maintenance across Northeast Mississippi, from routine mowing to reclaiming your yard from heavy growth or debris.",
-  "items": [
-   "Routine mowing",
-   "Reclaiming overgrown yards",
-   "Debris cleanup"
-  ],
+  "sub": "From routine mowing to reclaiming your yard from heavy growth or debris.",
+  "cta": "Get a quote",
   "rating": null,
   "reviews": 0,
-  "motif": "blades",
-  "layout": "split",
-  "font": "Rubik",
-  "bg": "#EEF4E4",
-  "ink": "#1D2B16",
-  "accent": "#3F7A22",
-  "on": "#FFFFFF",
-  "tint": "#DCE8CC",
+  "facts": [
+   "Routine mowing",
+   "Overgrown yards",
+   "Open every day"
+  ],
+  "stitle": "Whatever shape your yard is in.",
+  "services": [
+   [
+    "Routine mowing",
+    "Keep it looking sharp all season."
+   ],
+   [
+    "Yard reclaiming",
+    "Heavy growth, cut back and cleared."
+   ],
+   [
+    "Debris cleanup",
+    "Leaves, limbs and whatever's piled up."
+   ]
+  ],
+  "story": [
+   "Local to Northeast Mississippi",
+   "Holder Lawn Service keeps yards around Tupelo mowed, cleared and under control."
+  ],
+  "topics": [],
+  "hours": [
+   null,
+   [
+    540,
+    1080
+   ],
+   [
+    540,
+    1080
+   ],
+   [
+    540,
+    1080
+   ],
+   [
+    540,
+    1080
+   ],
+   [
+    540,
+    1080
+   ],
+   [
+    540,
+    1080
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Get a yard quote",
+   [
+    "Mowing",
+    "Overgrown yard",
+    "Debris cleanup"
+   ]
+  ],
+  "photos": [
+   "1780419748459-075ce111534a",
+   "1458245201577-fc8a130b8829",
+   "1782613064276-750c3a3ccdec",
+   "1721138941961-cb245dd928af"
+  ],
   "why": "fb",
   "hook": "your lawn work around Northeast Mississippi",
   "url": "https://reidwcoleman.github.io/site-previews/holder-lawn-service/"
  },
  {
-  "slug": "precision-landscaping",
-  "name": "Precision Landscaping",
-  "email": "theprecisionlandscaping@yahoo.com",
-  "phone": "(785) 829-7401",
-  "addr": "1413 Beverly Dr, Salina, KS 67401",
-  "city": "Salina, Kansas",
-  "head": "Hardscape done with precision.",
-  "sub": "A hardscape landscaping company based in Salina, Kansas.",
-  "items": [
-   "Hardscape",
-   "Landscaping"
-  ],
-  "rating": "4.5",
-  "reviews": 13,
-  "motif": "stone",
-  "layout": "ledger",
-  "font": "Libre Franklin",
-  "bg": "#F1EDE6",
-  "ink": "#2A2622",
-  "accent": "#8A4B2A",
-  "on": "#FFFFFF",
-  "tint": "#E2DBD0",
-  "why": "fb",
-  "hook": "your hardscape work in Salina",
-  "url": "https://reidwcoleman.github.io/site-previews/precision-landscaping/"
- },
- {
-  "slug": "el-rancho-kennels",
-  "name": "El Rancho Kennels",
-  "email": "Elranchokennels@gmail.com",
-  "phone": "(207) 825-3242",
-  "addr": "418 Johnson Mill Rd, Orrington, ME 04474",
-  "city": "Orrington, Maine",
-  "head": "Boarding, daycare and grooming.",
-  "sub": "A small, family owned and operated business in Orrington, Maine.",
-  "items": [
-   "Boarding",
-   "Daycare",
-   "Grooming"
-  ],
-  "rating": "4.9",
-  "reviews": 92,
-  "motif": "paw",
-  "layout": "split",
-  "font": "Vollkorn",
-  "bg": "#FBF1E3",
-  "ink": "#3A1F17",
-  "accent": "#A63A24",
-  "on": "#FFFFFF",
-  "tint": "#F3DFC6",
-  "why": "fb",
-  "hook": "your 4.9 stars from 92 Google reviews",
-  "url": "https://reidwcoleman.github.io/site-previews/el-rancho-kennels/"
- },
- {
   "slug": "wells-septic-installation",
   "name": "Wells Septic Installation, LLC",
+  "short": "Wells Septic",
   "email": "Wellsseptic21@gmail.com",
   "phone": "(601) 419-1014",
   "addr": "117 S High School Ave, Columbia, MS 39429",
   "city": "Columbia, Mississippi",
-  "head": "Septic installation in Columbia.",
-  "sub": "Wells Septic Installation, LLC, at 117 S High School Ave in Columbia, Mississippi.",
-  "items": [
-   "Septic installation"
-  ],
-  "rating": null,
-  "reviews": 0,
-  "motif": "pipe",
-  "layout": "poster",
-  "font": "Barlow",
-  "bg": "#10292B",
+  "tz": "America/Chicago",
+  "hero": "immersive",
+  "font": "Barlow Condensed",
+  "bfont": "Barlow",
+  "bg": "#0F2526",
   "ink": "#E9F3F1",
-  "accent": "#4FC2B0",
-  "on": "#10292B",
-  "tint": "#183A3D",
-  "why": "fb",
-  "hook": "your septic installation business in Columbia",
-  "url": "https://reidwcoleman.github.io/site-previews/wells-septic-installation/"
- },
- {
-  "slug": "ck-precision-painting",
-  "name": "C&K Precision Painting LLC",
-  "email": "ckprecisionpainting@gmail.com",
-  "phone": "(218) 221-2446",
-  "addr": "3167 Midway Rd, Proctor, MN 55810",
-  "city": "the Twin Ports",
-  "head": "Painting with pride and passion.",
-  "sub": "Exterior and interior painting for businesses and homes across the Twin Ports for 22-plus years. Locally owned and family run.",
-  "items": [
-   "Exterior painting",
-   "Interior painting",
-   "Business and residential",
-   "Free estimates"
-  ],
+  "accent": "#F2B134",
+  "on": "#0F2526",
+  "tint": "#163335",
+  "line": "#26484A",
+  "r": 6,
+  "eyebrow": "Columbia, Mississippi",
+  "head": "Hard septic problems, solved.",
+  "sub": "Septic system installation and repair from the Wells brothers and their crew. Open 24 hours.",
+  "cta": "Call Wells Septic",
   "rating": "5.0",
-  "reviews": 11,
-  "motif": "roller",
-  "layout": "ledger",
-  "font": "Work Sans",
-  "bg": "#F5F4F0",
-  "ink": "#1F2433",
-  "accent": "#2B4BB5",
-  "on": "#FFFFFF",
-  "tint": "#E4E5E8",
+  "reviews": 2,
+  "facts": [
+   "Open 24 hours",
+   "Family run by the Wells brothers",
+   "Tough sites welcome"
+  ],
+  "stitle": "When it has to be done right.",
+  "services": [
+   [
+    "Septic installation",
+    "New systems put in by a crew that does this every day."
+   ],
+   [
+    "Septic problem solving",
+    "Including tough cases, like homes with a basement."
+   ],
+   [
+    "Site work",
+    "A crew that works together until it's finished."
+   ]
+  ],
+  "story": [
+   "Mitchell and Chris treat you like a neighbor",
+   "Customers say dealing with the Wells brothers feels like dealing with people who actually care how it turns out."
+  ],
+  "topics": [],
+  "hours": [
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ],
+   [
+    0,
+    1440
+   ]
+  ],
+  "hnote": null,
+  "form": [
+   "Tell us about your site",
+   [
+    "New install",
+    "Septic problem",
+    "Not sure"
+   ]
+  ],
+  "photos": [
+   "1622082679766-c5912d9416eb",
+   "1751054770504-c69daeec4721",
+   "1768085091650-e8e89ef57b76",
+   "1606811883055-0d24f05c8bcd"
+  ],
   "why": "fb",
-  "hook": "your 22-plus years painting around the Twin Ports",
-  "url": "https://reidwcoleman.github.io/site-previews/ck-precision-painting/"
- },
- {
-  "slug": "mayos-barber-shop",
-  "name": "Mayo's Barber Shop",
-  "email": "mayosbarbershop@gmail.com",
-  "phone": "(251) 473-4321",
-  "addr": "1868 Airport Blvd, Mobile, AL 36606",
-  "city": "Mobile, Alabama",
-  "head": "Hot towels and straight razors.",
-  "sub": "Established in 1960 and going strong ever since. Like it should be.",
-  "items": [
-   "Hot towel shaves",
-   "Straight razor work",
-   "Est. 1960"
-  ],
-  "rating": "4.8",
-  "reviews": 126,
-  "motif": "razor",
-  "layout": "poster",
-  "font": "Abril Fatface",
-  "bg": "#191613",
-  "ink": "#F4EBDD",
-  "accent": "#D9A441",
-  "on": "#191613",
-  "tint": "#2A2520",
-  "why": "fb",
-  "hook": "a shop going strong since 1960 with 4.8 stars from 126 Google reviews",
-  "url": "https://reidwcoleman.github.io/site-previews/mayos-barber-shop/"
- },
- {
-  "slug": "elidas-bakery",
-  "name": "Elida's Bakery",
-  "email": "elidasbakery@gmail.com",
-  "phone": null,
-  "addr": "2128 S Riverside Dr #99, Iowa City, IA 52246",
-  "city": "Iowa City, Iowa",
-  "head": "Custom cakes, cupcakes and more.",
-  "sub": "A licensed home bakery in Iowa City. Curbside pickup available. Se habla español.",
-  "items": [
-   "Custom cakes",
-   "Cupcakes",
-   "Curbside pickup"
-  ],
-  "rating": "4.9",
-  "reviews": 58,
-  "motif": "cake",
-  "layout": "split",
-  "font": "Fraunces",
-  "bg": "#FCEFEF",
-  "ink": "#3D1B2C",
-  "accent": "#9C2F60",
-  "on": "#FFFFFF",
-  "tint": "#F6DCE0",
-  "why": "fb",
-  "hook": "your custom cakes and 4.9 stars from 58 Google reviews",
-  "url": "https://reidwcoleman.github.io/site-previews/elidas-bakery/"
- },
- {
-  "slug": "shepros-auto-repair",
-  "name": "Shepro's Auto Repair",
-  "email": "sheprosautorepair@gmail.com",
-  "phone": "(906) 753-5823",
-  "addr": "S955 US Highway 41, Stephenson, MI",
-  "city": "Stephenson, Michigan",
-  "head": "Auto repair on Highway 41.",
-  "sub": "Find Shepro's Auto Repair on Highway 41 in Stephenson, Michigan.",
-  "items": [
-   "Auto repair"
-  ],
-  "rating": "4.9",
-  "reviews": 74,
-  "motif": "wrench",
-  "layout": "ledger",
-  "font": "Oswald",
-  "bg": "#EFEFEC",
-  "ink": "#1C1E20",
-  "accent": "#C2281E",
-  "on": "#FFFFFF",
-  "tint": "#DEDFDB",
-  "why": "none",
-  "hook": "your 4.9 stars from 74 Google reviews",
-  "url": "https://reidwcoleman.github.io/site-previews/shepros-auto-repair/"
- },
- {
-  "slug": "erikas-dog-gone-grooming",
-  "name": "Erika's Dog-Gone Grooming Salon",
-  "email": "doggonegroomingsalon22@gmail.com",
-  "phone": "(615) 675-4189",
-  "addr": "895 South Water Ave, Gallatin, TN",
-  "city": "Gallatin, Tennessee",
-  "head": "One-on-one grooming for senior dogs.",
-  "sub": "A one-on-one dog groomer specializing in senior dogs, located in Gallatin, Tennessee.",
-  "items": [
-   "One-on-one grooming",
-   "Senior dog specialist"
-  ],
-  "rating": null,
-  "reviews": 0,
-  "motif": "paw",
-  "layout": "split",
-  "font": "Nunito",
-  "bg": "#EAF3F5",
-  "ink": "#14323B",
-  "accent": "#17697C",
-  "on": "#FFFFFF",
-  "tint": "#D5E7EB",
-  "why": "none",
-  "hook": "your one-on-one grooming for senior dogs",
-  "url": "https://reidwcoleman.github.io/site-previews/erikas-dog-gone-grooming/"
- },
- {
-  "slug": "head-to-tail-grooming",
-  "name": "Head to Tail Professional Pet Grooming",
-  "email": "headtotailvt@icloud.com",
-  "phone": "(802) 772-4556",
-  "addr": "144 Grove St, Rutland, VT",
-  "city": "Rutland, Vermont",
-  "head": "Professional pet grooming in Rutland.",
-  "sub": "Head to Tail, at 144 Grove Street in Rutland, Vermont.",
-  "items": [
-   "Professional pet grooming"
-  ],
-  "rating": "4.8",
-  "reviews": 106,
-  "motif": "paw",
-  "layout": "ledger",
-  "font": "Lora",
-  "bg": "#F0F1EA",
-  "ink": "#23291F",
-  "accent": "#56663A",
-  "on": "#FFFFFF",
-  "tint": "#E0E3D4",
-  "why": "fb",
-  "hook": "your 4.8 stars from 106 Google reviews",
-  "url": "https://reidwcoleman.github.io/site-previews/head-to-tail-grooming/"
- },
- {
-  "slug": "margies-mixing-bowl",
-  "name": "Margie's Mixing Bowl",
-  "email": "info@margiesmixingbowl.com",
-  "phone": "(601) 207-0111",
-  "addr": "4920 Poplar Springs Dr, Meridian, MS",
-  "city": "Meridian, Mississippi",
-  "head": "Gourmet cupcakes, cakes and macarons.",
-  "sub": "For birthday parties, weddings, showers, client gifts, a meeting, or a special treat for you.",
-  "items": [
-   "Gourmet cupcakes",
-   "Custom cakes",
-   "Macarons",
-   "Meridian Star Readers' Choice, 2016 to 2022"
-  ],
-  "rating": "4.6",
-  "reviews": 78,
-  "motif": "cake",
-  "layout": "poster",
-  "font": "Playfair Display",
-  "bg": "#3A1626",
-  "ink": "#FBEEF2",
-  "accent": "#F4A9C0",
-  "on": "#3A1626",
-  "tint": "#4E2135",
-  "why": "old",
-  "hook": "all those Readers' Choice wins",
-  "url": "https://reidwcoleman.github.io/site-previews/margies-mixing-bowl/"
+  "hook": "your septic work in Columbia, including that tough basement job in your reviews",
+  "url": "https://reidwcoleman.github.io/site-previews/wells-septic-installation/"
  }
 ]
