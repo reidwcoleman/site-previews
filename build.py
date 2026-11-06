@@ -66,7 +66,7 @@ def sec_scroll(b,d,tel): return '<section class="gs" tabindex="0" aria-label="Ph
 def sec_praise(b,d,tel):
     p=d.get("praise")
     if not p: return ""
-    stars=ic("star")*5
+    stars=ic("star")
     c="".join(f'<li class="rv"><div class="st5">{stars}</div><p>{e(x)}</p></li>' for x in p)
     return f'<section class="praise wrap"><h2 class="rv">What customers say on Google</h2><ul class="deck">{c}</ul></section>'
 def sec_pole(b,d,tel): return '<div class="pole" aria-hidden="true"></div>'
